@@ -1,0 +1,18 @@
+{
+  "name": "btybug/social_studio",
+  "description": "Studio package",
+  "authors": [
+    {
+      "name": "Eduard",
+      "email": "sahak@ukdevplus.co.uk"
+    }
+  ],
+  "type": "module",
+  "route": "media",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Btybug\\SocialStudio\\": "src/"
+    }
+  }
+}

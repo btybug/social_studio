@@ -11,8 +11,6 @@
 |
 */
 
-
-Route::get('/settings', 'IndexController@settings');
-Route::get('/editor', 'IndexController@editor');
-
+    Route::get('/', 'IndexController@index', true);
+    Route::get('/settings', 'IndexController@settings', true);
 

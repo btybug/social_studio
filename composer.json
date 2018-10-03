@@ -3,12 +3,12 @@
   "description": "Studio package",
   "authors": [
     {
-      "name": "Eduard",
+      "name": "Sahak",
       "email": "sahak@ukdevplus.co.uk"
     }
   ],
   "type": "module",
-  "route": "media",
+  "route": "social-studio",
   "require": {},
   "autoload": {
     "psr-4": {

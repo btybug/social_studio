@@ -1,4 +1,4 @@
-@extends('cms::layouts.mTabs',['index'=>'module_settings'])
-@section('tab')
-    {!! "This is Media Settings Page" !!}
+@extends('btybug::layouts.admin')
+@section('content')
+    {!! "This is Studio Settings Page" !!}
 @stop

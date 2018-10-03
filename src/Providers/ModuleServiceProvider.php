@@ -23,7 +23,7 @@ class ModuleServiceProvider extends ServiceProvider
             "children" => [
                 [
                     "title" => "Editor",
-                    "custom-link" => "/admin/social-studio/drive",
+                    "custom-link" => "/admin/social-studio",
                     "icon" => "fa fa-trash",
                     "is_core" => "yes"
                 ], [
@@ -34,7 +34,7 @@ class ModuleServiceProvider extends ServiceProvider
                 ]
             ]
         ]);
-         \Btybug\btybug\SocialStudio\Routes::registerPages('btybug/social_studio');
+        \Btybug\btybug\Models\Routes::registerPages('btybug/social_studio');
     }
 
     /**
